@@ -1,6 +1,7 @@
 SRC += Sturek.c
 
 # Common feature for all keyboards
+LTO_ENABLE = yes
 BOOTMAGIC_ENABLE = yes
 EXTRAKEY_ENABLE = yes
 MACROS_ENABLED = yes
