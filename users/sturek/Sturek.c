@@ -1,10 +1,12 @@
 #pragma once
 
-#include "quantum.h"
-#include "action.h"
-#include "version.h"
-
 #include "macros.c"
+
+// Common QMK variables
+#define TAPPING_TERM 150
+#define PERMISSIVE_HOLD
+#define TAPPING_FORCE_HOLD
+#define TAP_CODE_DELAY 10
 
 // Init effect for RGB boards only
 #ifdef RGB_MATRIX_ENABLE
