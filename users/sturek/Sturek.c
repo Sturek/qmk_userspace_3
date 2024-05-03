@@ -21,15 +21,3 @@ layer_state_t layer_state_set_user(layer_state_t state) {
     return state;
 }
 #endif // KEYBOARD_bm40hsrgb
-
-// Left-hand home row mods
-#define HOME_A LGUI_T(KC_A)
-#define HOME_R LT(4, KC_R)
-#define HOME_S LSFT_T(KC_S)
-#define HOME_T LCTL_T(KC_T)
-
-// Right-hand home row mods
-#define HOME_N RCTL_T(KC_N)
-#define HOME_E RSFT_T(KC_E)
-#define HOME_I LT(4, KC_I)
-#define HOME_O RGUI_T(KC_O)
