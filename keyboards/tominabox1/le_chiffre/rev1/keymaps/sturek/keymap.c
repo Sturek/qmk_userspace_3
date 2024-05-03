@@ -51,7 +51,7 @@ RGB_HUD,   RGB_HUI,    KC_MPLY,    _______,    KC_MUTE,       _______,     _____
                          LT(3,KC_DEL), LT(1,KC_ENTER),   LT(2,KC_SPACE),   KC_BACKSPACE
 ),
 [_SCHREIB] = LAYOUT (
-RALT(KC_Q), _______, _______, RALT(KC_P), _______,   _______,   _______, RALT(KC_Y), RALT(KC_Y), _______, \
+RALT(KC_Q), _______, _______, RALT(KC_P), _______,   KC_MPLY, _______,   _______, RALT(KC_Y), RALT(KC_Y), _______, \
 RALT(KC_Q), _______, RALT(KC_S), _______,    _______,   _______, KC_BTN1,    _______,    _______, RALT(KC_P), \
 _______,    _______, _______, _______,    _______,   _______, KC_BTN2,    _______,    _______,    _______, \
                 LT(3,KC_DEL), LT(1,KC_ENTER),   LT(2,KC_SPACE),   KC_BACKSPACE
