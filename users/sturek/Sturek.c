@@ -1,3 +1,9 @@
+#pragma once
+
+#include "quantum.h"
+#include "action.h"
+#include "version.h"
+
 #include "macros.c"
 
 // Init effect for RGB boards only
