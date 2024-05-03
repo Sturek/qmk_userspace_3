@@ -3,6 +3,7 @@ SRC += Sturek.c
 # Common feature for all keyboards
 BOOTMAGIC_ENABLE = yes
 EXTRAKEY_ENABLE = yes
+MACROS_ENABLED = yes
 RGBLIGHT_ENABLE = no
 RGB_MATRIX_ENABLE = no
 

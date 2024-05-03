@@ -1,8 +1,9 @@
 // Define all of
 enum custom_keycodes {
-  KC_ETREMA
+  KC_ETREMA = SAFE_RANGE
   KC_NDASH,
-  KC_MDASH  //use "NEW_SAFE_RANGE" for keymap specific codes
+  KC_MDASH,
+  NEW_SAFE_RANGE  //use "NEW_SAFE_RANGE" for keymap specific codes
 };
 
 // Left-hand home row mods
