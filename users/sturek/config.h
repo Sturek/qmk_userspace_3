@@ -1,7 +1,6 @@
 #pragma once
 
 // #include "wrappers.h"
-#include "macros.c"
 
 // Common QMK variables
 #define TAPPING_TERM 150
