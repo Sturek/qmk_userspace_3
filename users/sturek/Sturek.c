@@ -1,4 +1,3 @@
-#include QMK_KEYBOARD_H
 #include "macros.c"
 
 // Init effect for RGB boards only
