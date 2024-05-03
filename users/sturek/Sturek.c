@@ -1,3 +1,5 @@
+#include "macros.c"
+
 // Init effect for RGB boards only
 #ifdef RGB_MATRIX_ENABLE
 void matrix_init_user(void) {
