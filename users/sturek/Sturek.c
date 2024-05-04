@@ -1,7 +1,7 @@
 #pragma once
 
 #include "macros.c"
-
+#include "combos.c"
 
 // Init effect for RGB boards only
 #ifdef RGB_MATRIX_ENABLE
