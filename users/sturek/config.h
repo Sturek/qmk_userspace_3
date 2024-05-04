@@ -1,12 +1,13 @@
 #pragma once
-#include QMK_KEYBOARD_H
-// #include "wrappers.h"
 
 // Common QMK variables
 #define TAPPING_TERM 150
 #define PERMISSIVE_HOLD
 #define TAPPING_FORCE_HOLD
 #define TAP_CODE_DELAY 10
+
+#include QMK_KEYBOARD_H
+// #include "wrappers.h"
 
 // Left-hand home row mods
 #define HOME_A LGUI_T(KC_A)
