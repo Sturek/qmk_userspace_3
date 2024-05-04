@@ -8,7 +8,7 @@
 
 #include QMK_KEYBOARD_H
 // #include "wrappers.h"
-
+#include "combos.c"
 // Left-hand home row mods
 #define HOME_A LGUI_T(KC_A)
 #define HOME_R LT(4, KC_R)
