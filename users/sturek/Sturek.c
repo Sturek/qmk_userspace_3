@@ -2,12 +2,6 @@
 
 #include "macros.c"
 
-// Common QMK variables
-#define TAPPING_TERM 150
-#define PERMISSIVE_HOLD
-#define TAPPING_FORCE_HOLD
-#define TAP_CODE_DELAY 10
-
 // Init effect for RGB boards only
 #ifdef RGB_MATRIX_ENABLE
 void matrix_init_user(void) {
