@@ -21,7 +21,6 @@
 
 #ifdef COMBO_ENABLE
 # define COMBO_COUNT 8
-# include "combos.c"
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
